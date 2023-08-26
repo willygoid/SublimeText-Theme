@@ -1,17 +1,18 @@
 // Documentation at https://www.sublimetext.com/docs/themes.html
+//Custom Theme by WillyGoID
 {
-	"variables":
-	{
-	},
-	"rules":
-	[
+  "variables":
+  {
+  },
+  "rules":
+  [
 
-	//Set color tab selected
-	{
-      "class": "tabset_control",
-      "layer0.opacity": 1.0,
-      "layer0.tint": [38, 50, 56],
-      "tint_index": 1
+  //Set color tab selected
+    {
+        "class": "tabset_control",
+        "layer0.tint": [38, 50, 56],
+        "layer1.tint": [0, 0, 0, 0],
+        "tint_index": 0,
     },
     {
         "class": "tab_control",
@@ -19,18 +20,18 @@
         "tint_modifier": [25, 195, 175],
         "layer0.texture": "Seti_UI/Main/tab_mask_white.png"
     },
-	// @TITLE BAR
+  // @TITLE BAR
   // Style for title bar
   // =========================================================================
 
-	  {
-	    "class": "title_bar",
-	    "settings": ["themed_title_bar"],
-	    "bg": [38, 50, 56],
-	    "fg": [176, 190, 197, 255],
-	    "style": "system"
-	  },
-	 // @EMPTY WINDOW
+    {
+      "class": "title_bar",
+      "settings": ["themed_title_bar"],
+      "bg": [38, 50, 56],
+      "fg": [176, 190, 197, 255],
+      "style": "system"
+    },
+   // @EMPTY WINDOW
   // Style for empty (no tabs) window
   // =========================================================================
   
@@ -943,5 +944,5 @@
       "layer0.texture": "Material Theme/assets/commons/overflow_menu--hover.png",
     },
 
-	]
+  ]
 }
