@@ -11,7 +11,7 @@
 	],
 	"overlay_scroll_bars": "enabled",
 	"theme": "Seti.sublime-theme",
-  "always_show_minimap_viewport" : true,
+	"always_show_minimap_viewport" : true,
 	"bold_folder_labels"           : true,
 	"indent_guide_options"         : ["draw_normal", "draw_active"], // Highlight active indent
 	"line_padding_bottom"          : 1,
